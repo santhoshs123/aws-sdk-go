@@ -19,7 +19,7 @@ func configPartitions() partitions {
 
 	jsonFile, err := os.Open(configFile)
 	if err != nil {
-		fmt.Errorf("Error while opening file", err)
+		_ = fmt.Errorf("Error while opening file, %v", err)
 	}
 
 	defer jsonFile.Close()
