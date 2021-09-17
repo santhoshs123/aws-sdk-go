@@ -9,9 +9,9 @@
 package acmiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/acm"
+	"github.com/santhoshs123/aws-sdk-go/aws"
+	"github.com/santhoshs123/aws-sdk-go/aws/request"
+	"github.com/santhoshs123/aws-sdk-go/service/acm"
 )
 
 // ACMAPI provides an interface to enable mocking the

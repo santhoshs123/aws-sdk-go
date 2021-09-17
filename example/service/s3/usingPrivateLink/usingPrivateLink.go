@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/arn"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/aws/aws-sdk-go/service/s3control"
+	"github.com/santhoshs123/aws-sdk-go/aws"
+	"github.com/santhoshs123/aws-sdk-go/aws/arn"
+	"github.com/santhoshs123/aws-sdk-go/aws/session"
+	"github.com/santhoshs123/aws-sdk-go/service/s3"
+	"github.com/santhoshs123/aws-sdk-go/service/s3control"
 )
 
 const (

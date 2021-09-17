@@ -9,9 +9,9 @@
 package redshiftdataapiserviceiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/redshiftdataapiservice"
+	"github.com/santhoshs123/aws-sdk-go/aws"
+	"github.com/santhoshs123/aws-sdk-go/aws/request"
+	"github.com/santhoshs123/aws-sdk-go/service/redshiftdataapiservice"
 )
 
 // RedshiftDataAPIServiceAPI provides an interface to enable mocking the

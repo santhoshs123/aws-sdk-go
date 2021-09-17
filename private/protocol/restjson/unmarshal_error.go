@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/private/protocol"
-	"github.com/aws/aws-sdk-go/private/protocol/json/jsonutil"
-	"github.com/aws/aws-sdk-go/private/protocol/rest"
+	"github.com/santhoshs123/aws-sdk-go/aws/awserr"
+	"github.com/santhoshs123/aws-sdk-go/aws/request"
+	"github.com/santhoshs123/aws-sdk-go/private/protocol"
+	"github.com/santhoshs123/aws-sdk-go/private/protocol/json/jsonutil"
+	"github.com/santhoshs123/aws-sdk-go/private/protocol/rest"
 )
 
 const (

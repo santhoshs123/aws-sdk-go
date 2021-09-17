@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/signer/v4"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/service/s3"
+	"github.com/santhoshs123/aws-sdk-go/aws"
+	"github.com/santhoshs123/aws-sdk-go/aws/request"
+	"github.com/santhoshs123/aws-sdk-go/aws/signer/v4"
+	"github.com/santhoshs123/aws-sdk-go/awstesting/unit"
+	"github.com/santhoshs123/aws-sdk-go/service/s3"
 )
 
 var standaloneSignCases = []struct {

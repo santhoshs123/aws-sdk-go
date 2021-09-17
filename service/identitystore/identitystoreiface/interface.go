@@ -9,9 +9,9 @@
 package identitystoreiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/identitystore"
+	"github.com/santhoshs123/aws-sdk-go/aws"
+	"github.com/santhoshs123/aws-sdk-go/aws/request"
+	"github.com/santhoshs123/aws-sdk-go/service/identitystore"
 )
 
 // IdentityStoreAPI provides an interface to enable mocking the

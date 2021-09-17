@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/aws-sdk-go/private/protocol/eventstream"
+	"github.com/santhoshs123/aws-sdk-go/private/protocol/eventstream"
 )
 
 var timeNow = time.Now

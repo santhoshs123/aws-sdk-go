@@ -8,11 +8,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/endpoints"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/service/s3"
+	"github.com/santhoshs123/aws-sdk-go/aws"
+	"github.com/santhoshs123/aws-sdk-go/aws/awserr"
+	"github.com/santhoshs123/aws-sdk-go/aws/endpoints"
+	"github.com/santhoshs123/aws-sdk-go/awstesting/unit"
+	"github.com/santhoshs123/aws-sdk-go/service/s3"
 )
 
 type s3BucketTest struct {

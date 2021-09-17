@@ -11,9 +11,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/sns"
+	"github.com/santhoshs123/aws-sdk-go/aws"
+	"github.com/santhoshs123/aws-sdk-go/aws/session"
+	"github.com/santhoshs123/aws-sdk-go/service/sns"
 )
 
 var clientCfg ClientConfig

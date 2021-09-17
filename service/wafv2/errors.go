@@ -3,7 +3,7 @@
 package wafv2
 
 import (
-	"github.com/aws/aws-sdk-go/private/protocol"
+	"github.com/santhoshs123/aws-sdk-go/private/protocol"
 )
 
 const (

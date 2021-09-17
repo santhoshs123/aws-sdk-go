@@ -11,11 +11,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/awstesting/integration"
-	"github.com/aws/aws-sdk-go/service/kms"
-	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/aws/aws-sdk-go/service/s3/s3crypto"
+	"github.com/santhoshs123/aws-sdk-go/aws"
+	"github.com/santhoshs123/aws-sdk-go/awstesting/integration"
+	"github.com/santhoshs123/aws-sdk-go/service/kms"
+	"github.com/santhoshs123/aws-sdk-go/service/s3"
+	"github.com/santhoshs123/aws-sdk-go/service/s3/s3crypto"
 )
 
 func TestInteg_EncryptFixtures(t *testing.T) {

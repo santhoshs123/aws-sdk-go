@@ -6,10 +6,10 @@
 package unitTest
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/service/dynamodb"
-	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbattribute"
-	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbiface"
+	"github.com/santhoshs123/aws-sdk-go/aws"
+	"github.com/santhoshs123/aws-sdk-go/service/dynamodb"
+	"github.com/santhoshs123/aws-sdk-go/service/dynamodb/dynamodbattribute"
+	"github.com/santhoshs123/aws-sdk-go/service/dynamodb/dynamodbiface"
 )
 
 // ItemGetter can be assigned a DynamoDB connector like:

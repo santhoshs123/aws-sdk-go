@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/private/protocol"
-	"github.com/aws/aws-sdk-go/private/protocol/eventstream"
-	"github.com/aws/aws-sdk-go/private/protocol/eventstream/eventstreamtest"
-	"github.com/aws/aws-sdk-go/private/protocol/restjson"
+	"github.com/santhoshs123/aws-sdk-go/aws"
+	"github.com/santhoshs123/aws-sdk-go/aws/request"
+	"github.com/santhoshs123/aws-sdk-go/private/protocol"
+	"github.com/santhoshs123/aws-sdk-go/private/protocol/eventstream"
+	"github.com/santhoshs123/aws-sdk-go/private/protocol/eventstream/eventstreamtest"
+	"github.com/santhoshs123/aws-sdk-go/private/protocol/restjson"
 )
 
 func TestEventWriter(t *testing.T) {

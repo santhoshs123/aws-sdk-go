@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/private/protocol"
-	"github.com/aws/aws-sdk-go/private/protocol/jsonrpc"
+	"github.com/santhoshs123/aws-sdk-go/aws"
+	"github.com/santhoshs123/aws-sdk-go/aws/awsutil"
+	"github.com/santhoshs123/aws-sdk-go/aws/request"
+	"github.com/santhoshs123/aws-sdk-go/private/protocol"
+	"github.com/santhoshs123/aws-sdk-go/private/protocol/jsonrpc"
 )
 
 const opDeleteScalingPolicy = "DeleteScalingPolicy"
@@ -1582,7 +1582,7 @@ type DeleteScalingPolicyInput struct {
 	//    * Custom resources are not supported with a resource type. This parameter
 	//    must specify the OutputValue from the CloudFormation template stack used
 	//    to access the resources. The unique identifier is defined by the service
-	//    provider. More information is available in our GitHub repository (https://github.com/aws/aws-auto-scaling-custom-resource).
+	//    provider. More information is available in our GitHub repository (https://github.com/santhoshs123/aws-auto-scaling-custom-resource).
 	//
 	//    * Amazon Comprehend document classification endpoint - The resource type
 	//    and unique identifier are specified using the endpoint ARN. Example: arn:aws:comprehend:us-west-2:123456789012:document-classifier-endpoint/EXAMPLE.
@@ -1804,7 +1804,7 @@ type DeleteScheduledActionInput struct {
 	//    * Custom resources are not supported with a resource type. This parameter
 	//    must specify the OutputValue from the CloudFormation template stack used
 	//    to access the resources. The unique identifier is defined by the service
-	//    provider. More information is available in our GitHub repository (https://github.com/aws/aws-auto-scaling-custom-resource).
+	//    provider. More information is available in our GitHub repository (https://github.com/santhoshs123/aws-auto-scaling-custom-resource).
 	//
 	//    * Amazon Comprehend document classification endpoint - The resource type
 	//    and unique identifier are specified using the endpoint ARN. Example: arn:aws:comprehend:us-west-2:123456789012:document-classifier-endpoint/EXAMPLE.
@@ -2031,7 +2031,7 @@ type DeregisterScalableTargetInput struct {
 	//    * Custom resources are not supported with a resource type. This parameter
 	//    must specify the OutputValue from the CloudFormation template stack used
 	//    to access the resources. The unique identifier is defined by the service
-	//    provider. More information is available in our GitHub repository (https://github.com/aws/aws-auto-scaling-custom-resource).
+	//    provider. More information is available in our GitHub repository (https://github.com/santhoshs123/aws-auto-scaling-custom-resource).
 	//
 	//    * Amazon Comprehend document classification endpoint - The resource type
 	//    and unique identifier are specified using the endpoint ARN. Example: arn:aws:comprehend:us-west-2:123456789012:document-classifier-endpoint/EXAMPLE.
@@ -2253,7 +2253,7 @@ type DescribeScalableTargetsInput struct {
 	//    * Custom resources are not supported with a resource type. This parameter
 	//    must specify the OutputValue from the CloudFormation template stack used
 	//    to access the resources. The unique identifier is defined by the service
-	//    provider. More information is available in our GitHub repository (https://github.com/aws/aws-auto-scaling-custom-resource).
+	//    provider. More information is available in our GitHub repository (https://github.com/santhoshs123/aws-auto-scaling-custom-resource).
 	//
 	//    * Amazon Comprehend document classification endpoint - The resource type
 	//    and unique identifier are specified using the endpoint ARN. Example: arn:aws:comprehend:us-west-2:123456789012:document-classifier-endpoint/EXAMPLE.
@@ -2494,7 +2494,7 @@ type DescribeScalingActivitiesInput struct {
 	//    * Custom resources are not supported with a resource type. This parameter
 	//    must specify the OutputValue from the CloudFormation template stack used
 	//    to access the resources. The unique identifier is defined by the service
-	//    provider. More information is available in our GitHub repository (https://github.com/aws/aws-auto-scaling-custom-resource).
+	//    provider. More information is available in our GitHub repository (https://github.com/santhoshs123/aws-auto-scaling-custom-resource).
 	//
 	//    * Amazon Comprehend document classification endpoint - The resource type
 	//    and unique identifier are specified using the endpoint ARN. Example: arn:aws:comprehend:us-west-2:123456789012:document-classifier-endpoint/EXAMPLE.
@@ -2741,7 +2741,7 @@ type DescribeScalingPoliciesInput struct {
 	//    * Custom resources are not supported with a resource type. This parameter
 	//    must specify the OutputValue from the CloudFormation template stack used
 	//    to access the resources. The unique identifier is defined by the service
-	//    provider. More information is available in our GitHub repository (https://github.com/aws/aws-auto-scaling-custom-resource).
+	//    provider. More information is available in our GitHub repository (https://github.com/santhoshs123/aws-auto-scaling-custom-resource).
 	//
 	//    * Amazon Comprehend document classification endpoint - The resource type
 	//    and unique identifier are specified using the endpoint ARN. Example: arn:aws:comprehend:us-west-2:123456789012:document-classifier-endpoint/EXAMPLE.
@@ -2991,7 +2991,7 @@ type DescribeScheduledActionsInput struct {
 	//    * Custom resources are not supported with a resource type. This parameter
 	//    must specify the OutputValue from the CloudFormation template stack used
 	//    to access the resources. The unique identifier is defined by the service
-	//    provider. More information is available in our GitHub repository (https://github.com/aws/aws-auto-scaling-custom-resource).
+	//    provider. More information is available in our GitHub repository (https://github.com/santhoshs123/aws-auto-scaling-custom-resource).
 	//
 	//    * Amazon Comprehend document classification endpoint - The resource type
 	//    and unique identifier are specified using the endpoint ARN. Example: arn:aws:comprehend:us-west-2:123456789012:document-classifier-endpoint/EXAMPLE.
@@ -3733,7 +3733,7 @@ type PutScalingPolicyInput struct {
 	//    * Custom resources are not supported with a resource type. This parameter
 	//    must specify the OutputValue from the CloudFormation template stack used
 	//    to access the resources. The unique identifier is defined by the service
-	//    provider. More information is available in our GitHub repository (https://github.com/aws/aws-auto-scaling-custom-resource).
+	//    provider. More information is available in our GitHub repository (https://github.com/santhoshs123/aws-auto-scaling-custom-resource).
 	//
 	//    * Amazon Comprehend document classification endpoint - The resource type
 	//    and unique identifier are specified using the endpoint ARN. Example: arn:aws:comprehend:us-west-2:123456789012:document-classifier-endpoint/EXAMPLE.
@@ -4019,7 +4019,7 @@ type PutScheduledActionInput struct {
 	//    * Custom resources are not supported with a resource type. This parameter
 	//    must specify the OutputValue from the CloudFormation template stack used
 	//    to access the resources. The unique identifier is defined by the service
-	//    provider. More information is available in our GitHub repository (https://github.com/aws/aws-auto-scaling-custom-resource).
+	//    provider. More information is available in our GitHub repository (https://github.com/santhoshs123/aws-auto-scaling-custom-resource).
 	//
 	//    * Amazon Comprehend document classification endpoint - The resource type
 	//    and unique identifier are specified using the endpoint ARN. Example: arn:aws:comprehend:us-west-2:123456789012:document-classifier-endpoint/EXAMPLE.
@@ -4352,7 +4352,7 @@ type RegisterScalableTargetInput struct {
 	//    * Custom resources are not supported with a resource type. This parameter
 	//    must specify the OutputValue from the CloudFormation template stack used
 	//    to access the resources. The unique identifier is defined by the service
-	//    provider. More information is available in our GitHub repository (https://github.com/aws/aws-auto-scaling-custom-resource).
+	//    provider. More information is available in our GitHub repository (https://github.com/santhoshs123/aws-auto-scaling-custom-resource).
 	//
 	//    * Amazon Comprehend document classification endpoint - The resource type
 	//    and unique identifier are specified using the endpoint ARN. Example: arn:aws:comprehend:us-west-2:123456789012:document-classifier-endpoint/EXAMPLE.
@@ -4634,7 +4634,7 @@ type ScalableTarget struct {
 	//    * Custom resources are not supported with a resource type. This parameter
 	//    must specify the OutputValue from the CloudFormation template stack used
 	//    to access the resources. The unique identifier is defined by the service
-	//    provider. More information is available in our GitHub repository (https://github.com/aws/aws-auto-scaling-custom-resource).
+	//    provider. More information is available in our GitHub repository (https://github.com/santhoshs123/aws-auto-scaling-custom-resource).
 	//
 	//    * Amazon Comprehend document classification endpoint - The resource type
 	//    and unique identifier are specified using the endpoint ARN. Example: arn:aws:comprehend:us-west-2:123456789012:document-classifier-endpoint/EXAMPLE.
@@ -4915,7 +4915,7 @@ type ScalingActivity struct {
 	//    * Custom resources are not supported with a resource type. This parameter
 	//    must specify the OutputValue from the CloudFormation template stack used
 	//    to access the resources. The unique identifier is defined by the service
-	//    provider. More information is available in our GitHub repository (https://github.com/aws/aws-auto-scaling-custom-resource).
+	//    provider. More information is available in our GitHub repository (https://github.com/santhoshs123/aws-auto-scaling-custom-resource).
 	//
 	//    * Amazon Comprehend document classification endpoint - The resource type
 	//    and unique identifier are specified using the endpoint ARN. Example: arn:aws:comprehend:us-west-2:123456789012:document-classifier-endpoint/EXAMPLE.
@@ -5169,7 +5169,7 @@ type ScalingPolicy struct {
 	//    * Custom resources are not supported with a resource type. This parameter
 	//    must specify the OutputValue from the CloudFormation template stack used
 	//    to access the resources. The unique identifier is defined by the service
-	//    provider. More information is available in our GitHub repository (https://github.com/aws/aws-auto-scaling-custom-resource).
+	//    provider. More information is available in our GitHub repository (https://github.com/santhoshs123/aws-auto-scaling-custom-resource).
 	//
 	//    * Amazon Comprehend document classification endpoint - The resource type
 	//    and unique identifier are specified using the endpoint ARN. Example: arn:aws:comprehend:us-west-2:123456789012:document-classifier-endpoint/EXAMPLE.
@@ -5391,7 +5391,7 @@ type ScheduledAction struct {
 	//    * Custom resources are not supported with a resource type. This parameter
 	//    must specify the OutputValue from the CloudFormation template stack used
 	//    to access the resources. The unique identifier is defined by the service
-	//    provider. More information is available in our GitHub repository (https://github.com/aws/aws-auto-scaling-custom-resource).
+	//    provider. More information is available in our GitHub repository (https://github.com/santhoshs123/aws-auto-scaling-custom-resource).
 	//
 	//    * Amazon Comprehend document classification endpoint - The resource type
 	//    and unique identifier are specified using the endpoint ARN. Example: arn:aws:comprehend:us-west-2:123456789012:document-classifier-endpoint/EXAMPLE.

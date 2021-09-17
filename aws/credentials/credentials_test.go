@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
+	"github.com/santhoshs123/aws-sdk-go/aws/awserr"
 )
 
 type stubProvider struct {

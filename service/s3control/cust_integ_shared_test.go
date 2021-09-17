@@ -11,10 +11,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/awstesting/integration"
-	"github.com/aws/aws-sdk-go/service/s3control"
-	"github.com/aws/aws-sdk-go/service/sts"
+	"github.com/santhoshs123/aws-sdk-go/aws"
+	"github.com/santhoshs123/aws-sdk-go/awstesting/integration"
+	"github.com/santhoshs123/aws-sdk-go/service/s3control"
+	"github.com/santhoshs123/aws-sdk-go/service/sts"
 )
 
 var (

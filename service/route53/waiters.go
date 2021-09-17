@@ -5,8 +5,8 @@ package route53
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/santhoshs123/aws-sdk-go/aws"
+	"github.com/santhoshs123/aws-sdk-go/aws/request"
 )
 
 // WaitUntilResourceRecordSetsChanged uses the Route 53 API operation

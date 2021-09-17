@@ -3,13 +3,13 @@
 package memorydb
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/signer/v4"
-	"github.com/aws/aws-sdk-go/private/protocol"
-	"github.com/aws/aws-sdk-go/private/protocol/jsonrpc"
+	"github.com/santhoshs123/aws-sdk-go/aws"
+	"github.com/santhoshs123/aws-sdk-go/aws/client"
+	"github.com/santhoshs123/aws-sdk-go/aws/client/metadata"
+	"github.com/santhoshs123/aws-sdk-go/aws/request"
+	"github.com/santhoshs123/aws-sdk-go/aws/signer/v4"
+	"github.com/santhoshs123/aws-sdk-go/private/protocol"
+	"github.com/santhoshs123/aws-sdk-go/private/protocol/jsonrpc"
 )
 
 // MemoryDB provides the API operation methods for making requests to

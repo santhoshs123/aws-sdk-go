@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/aws/aws-sdk-go/aws"
-	awsarn "github.com/aws/aws-sdk-go/aws/arn"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/s3shared"
-	"github.com/aws/aws-sdk-go/internal/s3shared/arn"
+	"github.com/santhoshs123/aws-sdk-go/aws"
+	awsarn "github.com/santhoshs123/aws-sdk-go/aws/arn"
+	"github.com/santhoshs123/aws-sdk-go/aws/request"
+	"github.com/santhoshs123/aws-sdk-go/internal/s3shared"
+	"github.com/santhoshs123/aws-sdk-go/internal/s3shared/arn"
 )
 
 const (

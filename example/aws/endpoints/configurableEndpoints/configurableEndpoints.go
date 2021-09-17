@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aws/aws-sdk-go/aws/endpoints"
+	"github.com/santhoshs123/aws-sdk-go/aws/endpoints"
 )
 
 
